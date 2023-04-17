@@ -34,3 +34,5 @@ from .resolvers import get_resolver as get_resolver
 # noinspection PyUnresolvedReferences
 from .utils import get_callable as get_callable
 from .utils import get_mod_func as get_mod_func
+
+_AnyURL = URLPattern | URLResolver
